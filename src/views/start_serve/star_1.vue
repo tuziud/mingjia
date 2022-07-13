@@ -1,13 +1,6 @@
 <template>
   <div class="intr_box">
-    <div class="bread">
-      <el-breadcrumb separator-class="el-icon-arrow-right">
-        <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-        <el-breadcrumb-item>五星服务</el-breadcrumb-item>
-        <el-breadcrumb-item>花园社区</el-breadcrumb-item>
-        <el-breadcrumb-item>新中式建筑风格</el-breadcrumb-item>
-      </el-breadcrumb>
-    </div>
+
      <h3>新中式建筑风格</h3>
     
     <img src="../../assets/star1.png" alt="">

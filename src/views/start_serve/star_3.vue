@@ -1,13 +1,6 @@
 <template>
   <div class="intr_box">
-    <div class="bread">
-      <el-breadcrumb separator-class="el-icon-arrow-right">
-        <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-        <el-breadcrumb-item :to="{ path: '/start_serve/start_serve' }">五星服务</el-breadcrumb-item>
-        <el-breadcrumb-item :to="{ path: '/start_serve/star_3' }">花园社区</el-breadcrumb-item>
-        <el-breadcrumb-item>层层有庭院 户户有花园</el-breadcrumb-item>
-      </el-breadcrumb>
-    </div>
+
      <h3>层层有庭院 户户有花园</h3>
     
     <div class="intr_content">

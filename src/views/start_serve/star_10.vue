@@ -1,15 +1,6 @@
 <template>
   <div class="intr_box">
-     <!-- 面包屑 -->
-    <el-breadcrumb class="tabs" separator-class="el-icon-arrow-right">
-      <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-      <el-breadcrumb-item :to="{ path: '/start_serve/start_serve' }"
-        >五星服务</el-breadcrumb-item
-      >
-      <el-breadcrumb-item :to="{ path: '/start_serve/star_10' }"
-        >科学膳食</el-breadcrumb-item
-      >
-    </el-breadcrumb>
+
      <div class="helth-sys">
        <h2>科学膳食服务</h2>
         <p class="info">铭佳康养科学膳食服务秉承“健康科学，尊享膳食，适老服务”的发展思路，以“美味、健康、服务”为核心理念，创建模型，拓展功能，量化营养，打造服务；实践中规范烹饪，提升餐饮服务，通过管理与支持为科学膳食服务保驾护航。</p>
@@ -138,7 +129,7 @@ export default {
   font-size: 28px;
   font-weight: bolder;
   color: #1A3E79;
-  padding: 67px 0 15px 0;
+  padding: 40px 0 15px 0;
 }
 
 .item-li{

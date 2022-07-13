@@ -1,13 +1,6 @@
 <template>
   <div class="intr_box">
-    <div class="bread">
-      <el-breadcrumb separator-class="el-icon-arrow-right">
-        <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-        <el-breadcrumb-item>五星服务</el-breadcrumb-item>
-        <el-breadcrumb-item>花园社区</el-breadcrumb-item>
-        <el-breadcrumb-item>休闲娱乐</el-breadcrumb-item>
-      </el-breadcrumb>
-    </div>
+
     <div class="intr_content">
       <h3>休闲娱乐服务</h3>
       <p>铭佳康养通过建立社交网络、丰富日常生活、促进自我实现三大指导方案，为长者搭建社交平台，帮助长辈保持身心健康，鼓励和挖掘长辈自己的兴趣爱好，乐享“退而不休” 的快乐第二人生。</p>

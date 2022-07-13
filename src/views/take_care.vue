@@ -193,7 +193,7 @@ export default {
   font-size: 28px;
   font-weight: bolder;
   color: #1a3e79;
-  padding: 67px 0 15px 0;
+  padding: 40px 0 15px 0;
 }
 .care-mode .info {
   width: 980px;

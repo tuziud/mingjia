@@ -18,7 +18,7 @@
       <el-menu-item index="/hl_hospital">护理医院</el-menu-item>
       <el-submenu index="/start_serve">
         <template  slot="title">五星服务</template>
-        <el-menu-item index="/start_serve/star_7">健康管理服务</el-menu-item>
+        <el-menu-item index="/start_serve/star_7">健康管理</el-menu-item>
         <el-menu-item index="/start_serve/star_8">文化交流</el-menu-item>
         <el-menu-item index="/start_serve/star_9">老年大学</el-menu-item>
         <el-menu-item index="/start_serve/star_10">科学膳食</el-menu-item>
@@ -131,5 +131,9 @@ export default {
   height: 65px;
   color: #1a3e79;
   border-bottom: 2px solid #1a3e79
+}
+
+.el-menu.el-menu--horizontal {
+    border-bottom: solid 1px #fff;
 }
 </style>

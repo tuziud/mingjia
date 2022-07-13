@@ -1,13 +1,6 @@
 <template>
   <div class="intr_box">
-    <div class="bread">
-      <el-breadcrumb separator-class="el-icon-arrow-right">
-        <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-        <el-breadcrumb-item>五星服务</el-breadcrumb-item>
-        <el-breadcrumb-item>花园社区</el-breadcrumb-item>
-        <el-breadcrumb-item>舒适的户型设计</el-breadcrumb-item>
-      </el-breadcrumb>
-    </div>
+
      <h3>舒适的户型设计</h3>
     <div class="intr_content">
       <h6>聚焦长者特征的贴心设计，根据长者能力变化做出的环境支持，多种户型供长者选择，让长者生活在“我要”的家。</h6>

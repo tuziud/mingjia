@@ -1,16 +1,6 @@
 <template>
   <div class="intr_box">
-    <!-- 面包屑 -->
-    <el-breadcrumb class="tabs" separator-class="el-icon-arrow-right">
-      <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-      <el-breadcrumb-item :to="{ path: '/start_serve/start_serve' }"
-        >五星服务</el-breadcrumb-item
-      >
-      <el-breadcrumb-item :to="{ path: '/start_serve/star_8' }"
-        >文化交流</el-breadcrumb-item
-      >
-    </el-breadcrumb>
-    <!-- 第二部分 -->
+
     <div class="helth-sys">
       <h2>老年大学</h2>
       <div class="info">
@@ -178,7 +168,7 @@ export default {
   font-size: 28px;
   font-weight: bolder;
   color: #1A3E79;
-  padding: 67px 0 15px 0;
+  padding: 40px 0 15px 0;
 }
 .helth-sys .info {
   display: flex;
@@ -222,7 +212,7 @@ export default {
   font-size: 28px;
   font-weight: bolder;
   color: #1A3E79;
-  padding: 67px 0 15px 0;
+  padding: 40px 0 15px 0;
 }
 .infos {
   padding-bottom: 34px;

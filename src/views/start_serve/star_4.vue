@@ -1,13 +1,6 @@
 <template>
   <div class="intr_box">
-    <div class="bread">
-      <el-breadcrumb separator-class="el-icon-arrow-right">
-        <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-        <el-breadcrumb-item :to="{ path: '/start_serve/start_serve' }">五星服务</el-breadcrumb-item>
-        <el-breadcrumb-item :to="{ path: '/start_serve/star_4' }">花园社区</el-breadcrumb-item>
-        <el-breadcrumb-item>智慧社区</el-breadcrumb-item>
-      </el-breadcrumb>
-    </div>
+
      <h3>智慧社区</h3>
     <div class="intr_content">
       <p>应用云技术和物联网技术的结合,通过云端服务器汇集社区老人的各种信息打造智慧康养社区系统平台。

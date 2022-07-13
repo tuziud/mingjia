@@ -1,11 +1,6 @@
 <template>
   <div class="nursing">
-     <el-breadcrumb class="tabs" separator-class="el-icon-arrow-right">
-      <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-      <el-breadcrumb-item :to="{ path: '/start_serve/start_serve' }">五星服务</el-breadcrumb-item>
-      <el-breadcrumb-item :to="{ path: '/start_serve/star_7' }">健康管理服务</el-breadcrumb-item>
-    </el-breadcrumb>
-     <!-- 健康系统 -->
+
      <div class="helth-sys">
        <h2>全面多维度健康服务模式</h2>
         <p class="info">康养社区拥有一 套完善的健康评估系统,对长者的健康状况(生理及心理)及各种潜在的风险经行定期、适时的评估,根据评估结果制定护理计划,确保入住长者的健康得到24小时保障。针对高血压、糖尿病、高血脂、失眠、疼痛、便秘等进行健康调理,结合科学健身,达到改善健康或缓解症状之目的。</p>
@@ -100,7 +95,7 @@ export default {
   font-size: 28px;
   font-weight: bolder;
   color: #1A3E79 ;
-  padding: 67px 0 15px 0;
+  padding: 40px 0 15px 0;
 }
 .team h2{
   text-align: center;

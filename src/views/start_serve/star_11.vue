@@ -1,13 +1,6 @@
 <template>
   <div class="intr_box">
-    <div class="bread">
-      <el-breadcrumb separator-class="el-icon-arrow-right">
-        <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-        <el-breadcrumb-item>活动管理</el-breadcrumb-item>
-        <el-breadcrumb-item>活动列表</el-breadcrumb-item>
-        <el-breadcrumb-item>时间银行</el-breadcrumb-item>
-      </el-breadcrumb>
-    </div>
+
 
     <div class="intr_content">
       <h3>时间银行—<span>服务今天  乐享明天</span></h3>
