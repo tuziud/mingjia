@@ -1,41 +1,48 @@
 <template>
   <div class="nursing">
-
-     <div class="helth-sys">
-       <h2>全面多维度健康服务模式</h2>
-        <p class="info">康养社区拥有一 套完善的健康评估系统,对长者的健康状况(生理及心理)及各种潜在的风险经行定期、适时的评估,根据评估结果制定护理计划,确保入住长者的健康得到24小时保障。针对高血压、糖尿病、高血脂、失眠、疼痛、便秘等进行健康调理,结合科学健身,达到改善健康或缓解症状之目的。</p>
-        <div class="item-li">
-           <div v-for="(list,index) in lists" :key="index" class="item">
-               <h3>{{list.name}}</h3>
-               <span>{{list.contentText}}</span>
-           </div>
+    <el-breadcrumb class="tabs" separator-class="el-icon-arrow-right">
+      <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/start_serve/start_serve' }">五星服务</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/start_serve/star_7' }">健康管理服务</el-breadcrumb-item>
+    </el-breadcrumb>
+    <!-- 健康系统 -->
+    <div class="helth-sys">
+      <h2>全面多维度健康服务模式</h2>
+      <p class="info">康养社区拥有一 套完善的健康评估系统,对长者的健康状况(生理及心理)及各种潜在的风险经行定期、适时的评估,根据评估结果制定护理计划,确保入住长者的健康得到24小时保障。针对高血压、糖尿病、高血脂、失眠、疼痛、便秘等进行健康调理,结合科学健身,达到改善健康或缓解症状之目的。</p>
+      <div class="item-li">
+        <div v-for="(list,index) in lists" :key="index" class="item">
+          <h3>{{list.name}}</h3>
+          <span>{{list.contentText}}</span>
         </div>
-     </div>
-      <!-- CCRE持续照护模式 -->
-     <div class="passport">
-        <h2>管家式个性化的服务模式</h2>
-        <p class="info">社区使用专业评估工具对长者身体状况、兴趣爱好、饮食习惯等评估，并根据结果为其提供个性化服务</p>
-        <div class="list-item">
-          <div v-for="(data,index) in listData" :key="index">
-             <ListItem :data="data" :imgSize="400"/>
-          </div>
+      </div>
+    </div>
+    <!-- CCRE持续照护模式 -->
+    <div class="passport">
+      <h2>管家式个性化的服务模式</h2>
+      <p class="info">社区使用专业评估工具对长者身体状况、兴趣爱好、饮食习惯等评估，并根据结果为其提供个性化服务</p>
+      <div class="list-item">
+        <div v-for="(data,index) in listData" :key="index">
+          <ListItem :data="data" :imgSize="400"/>
         </div>
-     </div>
-      <div class="helth-sys team">
-       <h2>专业高素质的服务管理团队</h2>
-        <p class="info">铭佳康养社区设有专业人才培训部门，结合学院的人才输送，将为康养社区提供完善的人才保障</p>
-        <img src="../../assets/team.png" alt="">
-     </div>
-      <div class="passport">
-        <h2>享受医保待遇</h2>
-        <p class="info">铭佳康复医院、铭佳护理医院接入医保定点单位，长者在康复医院、护理医院享受医保便捷服务</p>
-        <img src="../../assets/card.png" alt="">
-     </div>
+      </div>
+    </div>
+    <div class="helth-sys team">
+      <h2>专业高素质的服务管理团队</h2>
+      <p class="info">铭佳康养社区设有专业人才培训部门，结合学院的人才输送，将为康养社区提供完善的人才保障</p>
+      <img src="../../assets/team.png" alt="">
+    </div>
+    <div class="passport">
+      <h2>享受医保待遇</h2>
+      <p class="info">铭佳康复医院、铭佳护理医院接入医保定点单位，长者在康复医院、护理医院享受医保便捷服务</p>
+      <img src="../../assets/card.png" alt="">
+    </div>
   </div>
 </template>
 <script>
 import { ListItem } from "../../components/index.js";
-import imgData from '../../assets/intro.png'
+import eatImgData from '../../assets/fiveStart/eat.jpeg'
+import drawImgData from '../../assets/fiveStart/draw.jpeg'
+import bodyImgData from '../../assets/fiveStart/body.jpeg'
 export default {
   components: { ListItem },
   props: [""],
@@ -43,15 +50,15 @@ export default {
     return {
       listData: [
         {
-          imgUrl: imgData,
+          imgUrl: bodyImgData,
           title: "身体状况",
         },
         {
-          imgUrl: imgData,
+          imgUrl: drawImgData,
           title: "兴趣爱好",
         },
         {
-          imgUrl: imgData,
+          imgUrl: eatImgData,
           title: "饮食习惯",
         }
       ],
@@ -74,11 +81,11 @@ export default {
 </script>
 <style scoped>
 .tabs{
-    width: 1440px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 10px;
-  }
+  width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 10px;
+}
 .nursing {
   width: 1440px;
   margin: 0 auto;
@@ -95,7 +102,7 @@ export default {
   font-size: 28px;
   font-weight: bolder;
   color: #1A3E79 ;
-  padding: 40px 0 15px 0;
+  padding: 67px 0 15px 0;
 }
 .team h2{
   text-align: center;
