@@ -24,8 +24,8 @@ export default {
         { name: "适老化设计", path: "star_5" },
         // { name: "舒适的户型设计", path: "star_6" },
         { name: "健康管理服务", path: "star_7" },
-        { name: "文化交流", path: "star_8" },
-        { name: "老年大学", path: "star_9" },
+        { name: "老年大学", path: "star_8" },
+        { name: "休闲娱乐", path: "star_9" },
         { name: "科学膳食", path: "star_10" },
         { name: "时间银行", path: "star_11" }
       ]
